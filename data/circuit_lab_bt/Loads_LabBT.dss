@@ -1,0 +1,13 @@
+! =====================================================================
+! Cargas Residenciales Monofásicas (230 V fase-neutro)
+! Asignación intencionalmente asimétrica entre fases A, B y C
+! =====================================================================
+
+New Load.Load_1  phases=1  bus1=LoadBus_1.1  kV=0.230  kW=6.5   pf=0.95  model=1  Vminpu=0.85  Vmaxpu=1.20  status=variable
+New Load.Load_2  phases=1  bus1=LoadBus_2.1  kV=0.230  kW=8.0   pf=0.92  model=1  Vminpu=0.85  Vmaxpu=1.20  status=variable
+New Load.Load_3  phases=1  bus1=LoadBus_3.1  kV=0.230  kW=9.5   pf=0.95  model=1  Vminpu=0.85  Vmaxpu=1.20  status=variable
+New Load.Load_4  phases=1  bus1=LoadBus_4.1  kV=0.230  kW=7.0   pf=0.93  model=1  Vminpu=0.85  Vmaxpu=1.20  status=variable
+New Load.Load_5  phases=1  bus1=LoadBus_5.1  kV=0.230  kW=5.5   pf=0.90  model=1  Vminpu=0.85  Vmaxpu=1.20  status=variable
+New Load.Load_6  phases=1  bus1=LoadBus_6.1  kV=0.230  kW=8.5   pf=0.96  model=1  Vminpu=0.85  Vmaxpu=1.20  status=variable
+New Load.Load_7  phases=1  bus1=LoadBus_7.1  kV=0.230  kW=6.0   pf=0.94  model=1  Vminpu=0.85  Vmaxpu=1.20  status=variable
+New Load.Load_8  phases=1  bus1=LoadBus_8.1  kV=0.230  kW=11.0  pf=0.92  model=1  Vminpu=0.85  Vmaxpu=1.20  status=variable

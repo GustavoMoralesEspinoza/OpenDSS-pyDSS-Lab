@@ -1,0 +1,17 @@
+! Coordenadas X Y para diagrama topológico
+SourceBus     0     100
+Substation_BT 50    100
+Node_1        170   100
+Node_2        270   100
+Node_3        350   100
+Node_4        270   190
+Node_5        270   260
+Node_6        170   15
+LoadBus_1     185   115
+LoadBus_2     285   80
+LoadBus_3     368   118
+LoadBus_4     368   82
+LoadBus_5     285   190
+LoadBus_6     285   260
+LoadBus_7     255   260
+LoadBus_8     185   -15

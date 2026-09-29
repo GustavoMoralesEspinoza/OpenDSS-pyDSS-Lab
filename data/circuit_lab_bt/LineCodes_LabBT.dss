@@ -1,0 +1,13 @@
+! =====================================================================
+! Parámetros de Conductores Aéreos Preensamblados de BT (IEC 60502-1)
+! Conductor de Fase: Aluminio XLPE | Conductor Neutro: Aleación Al (Almelec)
+! =====================================================================
+
+! Troncal principal: 3x150 mm² Al + 1x70 mm² Al (Neutro fiador)
+New LineCode.LineCode_Al_3x150_70 nphases=3 R1=0.206 X1=0.080 R0=0.820 X0=0.095 units=km normamp=305
+
+! Ramales laterales: 3x70 mm² Al + 1x50 mm² Al (Neutro fiador)
+New LineCode.LineCode_Al_3x70_50 nphases=3 R1=0.443 X1=0.085 R0=1.450 X0=0.100 units=km normamp=190
+
+! Acometidas monofásicas domiciliarias: 1x25 mm² Al + 1x25 mm² Al
+New LineCode.LineCode_Al_1x25_25 nphases=1 R1=1.200 X1=0.090 R0=1.500 X0=0.090 units=km normamp=90

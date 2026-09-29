@@ -1,0 +1,20 @@
+! =====================================================================
+! Circuito Laboratorio BT (Red_Lab_BT)
+! Proyecto Educativo: OpenDSS-pyDSS-Lab
+! Tensión Primaria: 13.8 kV | Tensión Secundaria: 0.400 / 0.230 kV | 50 Hz
+! =====================================================================
+
+Set DefaultBaseFrequency=50
+Clear
+
+New Circuit.Red_Lab_BT basekv=13.8 pu=1.00 angle=0 frequency=50 phases=3
+
+Redirect Transformers_LabBT.dss
+Redirect LineCodes_LabBT.dss
+Redirect Lines_LabBT.dss
+Redirect ServiceDrops_LabBT.dss
+Redirect Loads_LabBT.dss
+BusCoords BusCoords_LabBT.dss
+
+Set voltagebases=[13.8, 0.400]
+CalcVoltageBases

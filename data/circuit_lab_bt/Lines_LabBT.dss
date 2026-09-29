@@ -1,0 +1,15 @@
+! =====================================================================
+! Líneas Troncales y Ramales de Distribución Trifásica BT
+! =====================================================================
+
+! Troncal Principal
+New Line.Line_Sub_N1   bus1=Substation_BT  bus2=Node_1  phases=3  length=120  units=m  linecode=LineCode_Al_3x150_70
+New Line.Line_N1_N2    bus1=Node_1         bus2=Node_2  phases=3  length=100  units=m  linecode=LineCode_Al_3x150_70
+New Line.Line_N2_N3    bus1=Node_2         bus2=Node_3  phases=3  length=80   units=m  linecode=LineCode_Al_3x150_70
+
+! Ramal Lateral Norte
+New Line.Line_N2_N4    bus1=Node_2         bus2=Node_4  phases=3  length=90   units=m  linecode=LineCode_Al_3x70_50
+New Line.Line_N4_N5    bus1=Node_4         bus2=Node_5  phases=3  length=70   units=m  linecode=LineCode_Al_3x70_50
+
+! Ramal Lateral Sur
+New Line.Line_N1_N6    bus1=Node_1         bus2=Node_6  phases=3  length=85   units=m  linecode=LineCode_Al_3x70_50

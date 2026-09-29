@@ -1,0 +1,7 @@
+! =====================================================================
+! Transformador de Distribución MT/BT (Dyn11)
+! 13.8 kV Delta / 0.400 kV Estrella con neutro accesible
+! Potencia Nominal: 160 kVA, %Z = 4.0%, %R = 1.0%, XHL = 3.87%
+! =====================================================================
+
+New Transformer.TR_LAB Buses=[SourceBus, Substation_BT] Conns=[Delta, Wye] kVs=[13.8, 0.400] kVAs=[160, 160] %loadloss=1.0 %noloadloss=0.15 XHL=3.87

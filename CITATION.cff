@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this educational software or laboratory material in your academic research or teaching, please cite it as below."
+title: "OpenDSS-pyDSS-Lab: Advanced Educational Laboratory for Distribution System Analysis using OpenDSS and py-dss-interface"
+version: 1.0.0
+date-released: 2026-09-29
+license: MIT
+authors:
+  - family-names: "OpenDSS-pyDSS-Lab Contributors"
+    given-names: "Laboratory Team"
+repository-code: "https://github.com/your-username/OpenDSS-pyDSS-Lab"
+keywords:
+  - "OpenDSS"
+  - "py-dss-interface"
+  - "Power Distribution Systems"
+  - "Distributed Energy Resources"
+  - "Hosting Capacity"
+  - "Smart Inverters"
+  - "Volt-Var"
+  - "Volt-Watt"
+  - "Monte Carlo Simulation"
+  - "Power Quality"
+  - "IEC 61000-4-30"
